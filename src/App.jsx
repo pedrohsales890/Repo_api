@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
 
-    fetch('http://jsonplaceholder.typicode.com/todos?_limit=20')
+    fetch('https://jsonplaceholder.typicode.com/todos?_limit=20')
 
       .then((resposta) => resposta.json())
 
