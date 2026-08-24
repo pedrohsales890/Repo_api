@@ -6,7 +6,7 @@ function App() {
 
   const [tarefas, setTarefas] = useState([])
 
-  const [carregando, setCarregando] = useState(true)
+  const [carregando, setCarregando] = useState(false)
 
   // useEffect com fetch (requisições assíncronas)
 
